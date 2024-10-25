@@ -22,3 +22,14 @@ a {
   font-family: "burtons";
   src: url("../public/Burtons.otf");
 }
+
+/* Custom styles in your global CSS file */
+.vertical-timeline-element-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+@media (max-width: 768px) {
+  .vertical-timeline-element-content {
+    text-align: left;
+  }
+}
